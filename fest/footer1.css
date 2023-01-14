@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Pacifico&family=Sevillana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap');
+
+
+.footer
+{
+    background-image: url('background.png');
+    height:490px;
+    width:99vw;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.content
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:260px;
+    width:80vw;
+    position:absolute;
+    top:190px;
+    left:100px;
+}
+
+.left
+{
+    width:38vw;
+    height:260px;
+    color:white;
+    margin-right:30px;
+   
+}
+
+.left .logo
+{
+    height:200px;
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:39vw;
+}
+
+.logo h2
+{
+    position:absolute;
+    top:0px;
+    left:15px;
+    font-family: 'Indie Flower', cursive;
+    color: #FFFFFF;
+    font-size:120px;
+    font-weight:300px;
+    margin-bottom:2px;
+    margin-top:20px;
+
+}
+
+.right
+{
+    width:40vw;
+    height:260px;
+
+}
+
+.right h2
+{
+    font-size:35px;
+    color:white;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.form
+{
+    display:flex;
+}
+
+.form_left
+{
+    height:150px;
+    width:20vw;
+}
+
+.form_left input{
+    padding:12px;
+    margin-top:5px;
+    border:2px solid #E2E2E2;
+    width:80%;
+    background: #E2E2E2;
+    box-shadow: inset 0px 4px 18px rgba(0, 0, 0, 0.25);
+    border-radius: 18px;
+}
+
+.form_right
+{
+    height:150px;
+    width:20vw;
+}
+
+.form_right input
+{
+    padding:10px;
+    margin-top:5px;
+    border:2px solid #E2E2E2;
+    height:70px;
+    width:80%;
+    background: #E2E2E2;
+    box-shadow: inset 0px 4px 18px rgba(0, 0, 0, 0.25);
+    border-radius: 18px;
+
+}
+
+.btn
+{
+    border:2px solid #64ABFF;
+    padding:10px 32px;
+    margin-top:6px;
+    margin-left:10vw;
+    background-color: #64ABFF;
+    border-radius: 15px;
+
+}
+
+.icons
+{
+    width:400px;
+    height:30px;
+    display:flex;
+    flex-direction: row-reverse;
+    gap:5%;
+    position:absolute;
+    top:175px;
+
+}
+
+.last
+{
+    position:absolute;
+    top:430px;
+    left:20px;
+    color: #8E8E8E;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+
+
+@media only screen and (max-width:1012px)
+{
+   
+    .footer
+    {
+        background-image: url('background_1.png');
+        height:1000px;
+        width:100vw;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        
+    }
+
+    .content
+    {
+        display:flex;
+        flex-direction: row;
+        width:200px;
+    }
+
+    .left
+    {
+       
+        display:none;
+    }
+
+
+    .right
+    {
+        position:absolute;
+        top:0px;
+        left:0px;
+        height:55vh;
+        width:55vw;
+        display:block;
+        margin:auto;
+        text-align:center;
+        
+    }
+
+.form 
+{
+        display:flex;
+        flex-direction:column;
+}
+
+.form_left
+{
+    height:100px;
+    width:60vw;
+    margin-bottom:18px;
+    
+}
+
+.form_right
+{
+    margin-top:5px;
+    height:150px;
+    width:60vw;
+    
+}
+
+.form_left input{
+    padding:12px;
+    margin-top:5px;
+    border:2px solid #E2E2E2;
+    width:70%;
+    background: #E2E2E2;
+    box-shadow: inset 0px 4px 18px rgba(0, 0, 0, 0.25);
+    border-radius: 18px;
+    display:block;
+    margin:0px auto 0px auto;
+    
+}
+
+
+.form_right input
+{
+    padding:10px;
+    margin-top:5px;
+    border:2px solid #E2E2E2;
+    height:70px;
+    width:70%;
+    background: #E2E2E2;
+    box-shadow: inset 0px 4px 18px rgba(0, 0, 0, 0.25);
+    border-radius: 18px;
+    display:block;
+    margin:5px auto 2px auto;
+
+
+}
+
+.btn
+{
+    margin-left:12vw;
+    position:absolute;
+    top:368px;
+    left:6px;
+    
+}
+
+.last
+{
+    position:absolute;
+    top:600px;
+    font-size:15px;
+
+}
+
+.last p 
+{
+    text-align: center;
+}
+
+h2 
+{
+    font-size:18px;
+}
+
+}  
